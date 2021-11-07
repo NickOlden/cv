@@ -10,7 +10,7 @@ const About = () => {
         <div className="resume-section-content">
           <h1 className="mb-0">
             Николай
-            <span className="text-primary">Пискунов</span>
+            <p className="text-primary">Пискунов</p>
           </h1>
           <div className="subheading mb-5">
             Россия, г. Екатеринбруг, ул. П. Шаманова · <a href="tel:+79533837202">+7 (953) 383-7202</a> · <a href="mailto:nick3olden@gmail.com">nick3olden@gmail.com</a>

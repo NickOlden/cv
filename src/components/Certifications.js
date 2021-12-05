@@ -1,45 +1,47 @@
 import React from "react";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faTrophy} from "@fortawesome/free-solid-svg-icons";
+import LocaleUtil from "../utils/LocaleUtil";
 
 const Certifications = () => {
+  let locale = LocaleUtil()
   return (
     <>
       <section className="resume-section" id="awards">
         <div className="resume-section-content">
-          <h2 className="mb-5">Курсы и Сертификаты</h2>
+          <h2 className="mb-5">{locale.certs_title}</h2>
           <ul className="fa-ul mb-0">
             <li>
               <span className="fa-li"><FontAwesomeIcon icon={faTrophy} className="text-warning" /></span>
-              2020 Продвинутое программирование Python. Уровень 2ы (Сертификат)
+              {locale.certs_2020_p2}
             </li>
             <li>
               <span className="fa-li"><FontAwesomeIcon icon={faTrophy} className="text-warning" /></span>
-              2019 Шаблоны проектирования приложенжия масштаба предприятия (Сертификат)
+              {locale.certs_2019_gof}
             </li>
             <li>
               <span className="fa-li"><FontAwesomeIcon icon={faTrophy} className="text-warning" /></span>
-              2019 React-JS - Библиотека для создания пользовательских интерфейсов (Сертификат)
+              {locale.certs_2019_react}
             </li>
             <li>
               <span className="fa-li"><FontAwesomeIcon icon={faTrophy} className="text-warning" /></span>
-              2019 Python Уровень 1. Основыв программирования (Сертификат)
+              {locale.certs_2019_p1}
             </li>
             <li>
               <span className="fa-li"><FontAwesomeIcon icon={faTrophy} className="text-warning" /></span>
-              2018 Специалист, Генеральный директор
+              {locale.certs_2018}
             </li>
             <li>
               <span className="fa-li"><FontAwesomeIcon icon={faTrophy} className="text-warning" /></span>
-              2017 Специалист, Директор по информационным технологиям
+              {locale.certs_2017}
             </li>
             <li>
               <span className="fa-li"><FontAwesomeIcon icon={faTrophy} className="text-warning" /></span>
-              2016 Комплексная программа. Программирование в системе 1С Предприятие 8.3
+              {locale.certs_2016}
             </li>
             <li>
               <span className="fa-li"><FontAwesomeIcon icon={faTrophy} className="text-warning" /></span>
-              2014 MBA Start MBA IT
+              {locale.certs_2014}
             </li>
           </ul>
         </div>

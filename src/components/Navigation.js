@@ -24,6 +24,7 @@ const Navigation = () => {
         <ul className="navbar-nav">
           <li className="nav-item"><a onClick={() => setToggleIfSizeChange(false)} className="nav-link js-scroll-trigger" href="#about">{locale.menu_about_me}</a></li>
           <li className="nav-item"><a onClick={() => setToggleIfSizeChange(false)} className="nav-link js-scroll-trigger" href="#skills">{locale.menu_skills}</a></li>
+          <li className="nav-item"><a onClick={() => setToggleIfSizeChange(false)} className="nav-link js-scroll-trigger" href="#experience">{locale.menu_experience}</a></li>
           <li className="nav-item"><a onClick={() => setToggleIfSizeChange(false)} className="nav-link js-scroll-trigger" href="#interests">{locale.menu_hobby}</a></li>
           <li className="nav-item"><a onClick={() => setToggleIfSizeChange(false)} className="nav-link js-scroll-trigger" href="#awards">{locale.menu_certificates}</a></li>
         </ul>

@@ -10,6 +10,7 @@ const LocaleUtil = () => {
     menu_skills: "Умения",
     menu_hobby: "Интересы",
     menu_certificates: "Сертификаты",
+    menu_experience: "Опыт",
     address: "Россия, г. Екатеринбруг",
     about: "В общей сложности в IT уже более 10 лет. Основной упор на данный момент - Программирование и Разработка. Имею опыт руководящей работы",
     skills_title: "Языки программирования и инструменты",
@@ -36,6 +37,8 @@ const LocaleUtil = () => {
     certs_2019_react: "2019 React-JS - Библиотека для создания пользовательских интерфейсов (Сертификат)",
     certs_2019_gof: "2019 Шаблоны проектирования приложенжия масштаба предприятия (Сертификат)",
     certs_2020_p2: "2020 Продвинутое программирование Python. Уровень 2 (Сертификат)",
+    stub_exp_title: "Страница в разработке",
+    stub_exp_description: "Пока можете попрыгать через пеньки =) Кликните на фрейм чтобы начать. Кликните еще раз чтобы прыгнуть (Игра написана мной на JS)"
   }
 
   let _CHI = {
@@ -45,6 +48,7 @@ const LocaleUtil = () => {
     menu_skills: "技能",
     menu_hobby: "兴趣",
     menu_certificates: "证书",
+    experience: "经验",
     address: "俄罗斯，叶卡",
     about: "总的来说，他已经在 IT 行业工作了 10 多年。目前的主要重点是编程和开发。我有管理工作经验",
     skills_title: "编程语言和工具",
@@ -71,6 +75,7 @@ const LocaleUtil = () => {
     certs_2019_react: "2019 React-JS - Library for Building User Interfaces (Certificate)",
     certs_2019_gof: "2019 Enterprise Application Design Patterns (Certificate)",
     certs_2020_p2: "2020 Advanced Python Programming. Level 2 (Certificate)",
+    stub_exp_title: "页面建设中"
   }
 
   let _ENG = {
@@ -81,6 +86,7 @@ const LocaleUtil = () => {
     menu_hobby: "Hobby",
     menu_certificates: "Certificates",
     address: "Russia, Yekaterinburg",
+    experience: "Experience",
     about: "In total, I have been in IT for over 10 years. The main focus at the moment is Programming and Development. I have experience in management.",
     skills_title: "PROGRAMMING LANGUAGES & TOOLS",
     skills_bp: "Automation and Business Processes",
@@ -106,6 +112,7 @@ const LocaleUtil = () => {
     certs_2019_react: "2019 React-JS - Library for Building User Interfaces (Certificate)",
     certs_2019_gof: "2019 Enterprise Application Design Patterns (Certificate)",
     certs_2020_p2: "2020 Advanced Python Programming. Level 2 (Certificate)",
+    stub_exp_title: "Page under construction"
   }
 
   if (lang.indexOf('zh') > -1) {

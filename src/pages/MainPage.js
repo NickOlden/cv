@@ -6,6 +6,7 @@ import Interests from "../components/Interests";
 import Certifications from "../components/Certifications";
 import Meta from "../components/Meta";
 import LocaleUtil from "../utils/LocaleUtil";
+import ExperienceStub from "../components/ExperienceStub";
 
 const MainPage = () => {
   let locale = LocaleUtil()
@@ -17,6 +18,7 @@ const MainPage = () => {
       <div className="container-fluid p-0">
         <About />
         <Skills />
+        <ExperienceStub />
         <Interests />
         <Certifications />
       </div>

@@ -14,11 +14,9 @@ const Experience = () => {
               <h3 className="mb-0" />
               <div className="subheading mb-3">{locale.stub_exp_title}</div>
               <p>{locale.stub_exp_description}</p>
-              <Iframe url="http://mgrush.akademit.ru/"
+              <Iframe url="https://mgrush.akademit.ru/"
                       width="800px"
                       height="450px"
-                      id="myId"
-                      className="myClassname"
                       display="initial"
                       position="relative"/>
             </div>

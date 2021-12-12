@@ -1,9 +1,12 @@
-import React from "react";
+import React, {useState} from "react";
 import Iframe from "react-iframe";
 import LocaleUtil from "../utils/LocaleUtil";
 
 const Experience = () => {
   let locale = LocaleUtil()
+  let width = window.innerWidth;
+  const [size, setSize] = useState(width < 991);
+
   return (
     <>
       <section className="resume-section" id="experience">
@@ -14,11 +17,12 @@ const Experience = () => {
               <h3 className="mb-0" />
               <div className="subheading mb-3">{locale.stub_exp_title}</div>
               <p>{locale.stub_exp_description}</p>
+              {size? <p>{locale.stub_exp_game_size_error}</p> :
               <Iframe url="https://mgrush.akademit.ru/"
                       width="800px"
                       height="450px"
                       display="initial"
-                      position="relative"/>
+                      position="relative"/>}
             </div>
           </div>
         </div>

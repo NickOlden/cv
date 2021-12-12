@@ -38,7 +38,8 @@ const LocaleUtil = () => {
     certs_2019_gof: "2019 Шаблоны проектирования приложенжия масштаба предприятия (Сертификат)",
     certs_2020_p2: "2020 Продвинутое программирование Python. Уровень 2 (Сертификат)",
     stub_exp_title: "Страница в разработке",
-    stub_exp_description: "Пока можете попрыгать через пеньки =) Кликните на фрейм чтобы начать. Кликните еще раз чтобы прыгнуть (Игра написана мной на JS)"
+    stub_exp_description: "Пока можете попрыгать через пеньки =) Кликните на фрейм чтобы начать. Кликните еще раз чтобы прыгнуть (Игра написана мной на JS)",
+    stub_exp_game_size_error: "К сожалению игра работает только на десктопной версии браузера"
   }
 
   let _CHI = {
@@ -75,7 +76,9 @@ const LocaleUtil = () => {
     certs_2019_react: "2019 React-JS - Library for Building User Interfaces (Certificate)",
     certs_2019_gof: "2019 Enterprise Application Design Patterns (Certificate)",
     certs_2020_p2: "2020 Advanced Python Programming. Level 2 (Certificate)",
-    stub_exp_title: "页面建设中"
+    stub_exp_title: "页面建设中",
+    stub_exp_description: "While you can jump over the stumps =) Click on the frame to start. Click again to jump (The game was written by me in JS)",
+    stub_exp_game_size_error: "Unfortunately, the game only works on the desktop version of the browser."
   }
 
   let _ENG = {
@@ -112,7 +115,9 @@ const LocaleUtil = () => {
     certs_2019_react: "2019 React-JS - Library for Building User Interfaces (Certificate)",
     certs_2019_gof: "2019 Enterprise Application Design Patterns (Certificate)",
     certs_2020_p2: "2020 Advanced Python Programming. Level 2 (Certificate)",
-    stub_exp_title: "Page under construction"
+    stub_exp_title: "Page under construction",
+    stub_exp_description: "While you can jump over the stumps =) Click on the frame to start. Click again to jump (The game was written by me in JS)",
+    stub_exp_game_size_error: "Unfortunately, the game only works on the desktop version of the browser."
   }
 
   if (lang.indexOf('zh') > -1) {
